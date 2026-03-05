@@ -1,10 +1,10 @@
 # 🤖 RAG智能客服Agent
 ## ⚙️ 技术栈：LangChain（Tool Calling / ReAct）、Pinecone Vector DB、OpenAI Embedding（text-embedding-3-small）
-设计思路：
+💡 设计思路：
 
 根据PRD需求选择**GPT-4o模型**
 
-采用ChatPromptTemplate+MessagesPlaceholder方法构建Policy & History & Input & Tool-calling Prompt
+采用ChatPromptTemplate+MessagesPlaceholder方法构建**Policy & History & Input & Tool-calling Prompt**
 
 添加基于语义检索的**RAG（512 token chunking）**
 
